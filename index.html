@@ -1,97 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="pragma" content="no-cache" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
-    />
-    <meta
-      name="apple-mobile-web-app-status-bar-style"
-      content="black-translucent"
-    />
+    <title>Play Retro Bowl - Football Game</title>
+
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
 
-    <!-- Set the title bar of the page -->
-    <title>Retro Bowl</title>
+    <!-- Css -->
+    <link rel="stylesheet" target="_blank" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="w3navigation.css" />
 
-    <!-- Set the background colour of the document -->
-    <style>
-      body {
-        background: #000000;
-        color: #cccccc;
-        margin: 0px;
-        padding: 0px;
-        border: 0px;
-      }
-      canvas {
-        image-rendering: pixelated;
-        -webkit-interpolation-mode: nearest-neighbor;
-        -ms-touch-action: none;
-        margin: 0px;
-        padding: 0px;
-        border: 0px;
-      }
-      :-webkit-full-screen #canvas {
-        width: 100vw;
-        height: 100vh;
-      }
-      div.gm4html5_div_class {
-        margin: 0px;
-        padding: 0px;
-        border: 0px;
-      }
-      /* START - Login Dialog Box */
-      div.gm4html5_login {
-        padding: 20px;
-        position: absolute;
-        border: solid 2px #000000;
-        background-color: #404040;
-        color: #00ff00;
-        border-radius: 15px;
-        box-shadow: #101010 20px 20px 40px;
-      }
-      div.gm4html5_cancel_button {
-        float: right;
-      }
-      div.gm4html5_login_button {
-        float: left;
-      }
-      div.gm4html5_login_header {
-        text-align: center;
-      }
-      /* END - Login Dialog Box */
-      :-webkit-full-screen {
-        width: 100%;
-        height: 100%;
-      }
-    </style>
+    <!-- Favicons -->
+    <link rel="shortcut icon" target="_blank" href="icons/128x128.png" />
   </head>
-
   <body>
-    <div class="gm4html5_div_class" id="gm4html5_div_id">
-      <img
-        src="html5game/splash.png"
-        id="GM4HTML5_loadingscreen"
-        alt="GameMaker:HTML5 loading screen"
-        style="display: none"
-      />
-      <!-- Create the canvas element the game draws to -->
-      <canvas id="canvas" width="853" height="480">
-        <p>Your browser doesn't support HTML5 canvas.</p>
-      </canvas>
-    </div>
-
-    <!-- Run the game code -->
-    <script
-      type="text/javascript"
-      src="html5game/RetroBowl_v4.js?ILABC=1551937871&v=3"
-    ></script>
-    <!-- Poki start -->
-    <script src="html5game/poki-sdk.js?v=3"></script>
-    <script src="html5game/script.js"></script>
-    <!-- Poki end -->
+    <nav>
+      <div id="side-navigation">
+        <div id="menuToggle">
+          <input type="checkbox" aria-label="Show or Hide Menu" id="checkbox1" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <div id="menu-container">
+            <div id="scrollable-container">
+              <div id="left-column">
+                <ul id="menu1">
+                  <ul>
+                    <li class="active"><a href="https://retro-bowl.biz/" title="Retro Bowl" target="_blank"><img
+                          alt="Retro Bowl" class="lazy" src="/icons/48x48.png" height="30px" width="30px"> Retro Bowl - Football Game</a></li>
+                    <li><a href="https://flappybird777.com/" title="Flappy Bird" target="_blank"><img alt="Flappy Bird"
+                          class="lazy" src="/images/flappy-bird.webp"
+                          height="30px" width="30px"> Flappy Bird</a></li>
+                    <li><a href="https://doodlejump777.com/" title="Doodle Jump" target="_blank"><img alt="Doodle Jump"
+                          class="lazy" src="/images/doodle-jump.jpeg"
+                          height="30px" width="30px"> Doodle Jump</a></li>
+                    <li><a href="https://slopegame.me/" title="Slope - Football Game" target="_blank"><img alt="Slope - Football Game"
+                          class="lazy" src="/images/slope.webp" height="30px"
+                          width="30px"> Slope - Football Game</a></li>
+                    <li><a href="https://chromedino777.com/" title="Chrome Dino" target="_blank"><img alt="Chrome Dino"
+                          class="lazy" src="/images/chrome-dino.webp"
+                          height="30px" width="30px"> Chrome Dino</a></li>
+                    <li><a href="https://cookie-clicker.me" title="Cookie Clicker" target="_blank"><img
+                          alt="Cookie Clicker" class="lazy"
+                          src="/images/cookie-clicker.webp" height="30px"
+                          width="30px"> Cookie Clicker</a></li>
+                    <li><a href="https://supermario777.com/" title="Super Mario" target="_blank"><img alt="Super Mario"
+                          class="lazy" src="/images/super-mario.webp"
+                          height="30px" width="30px"> Super Mario</a></li>
+                    <li><a href="https://2048.best/" title="2048 Original" target="_blank"><img alt="2048 Original"
+                          class="lazy" src="/images/2048.webp" height="30px"
+                          width="30px"> 2048</a></li>
+                    <li><a href="https://templerun.me/" title="Temple Run 2" target="_blank"><img alt="Temple Run 2"
+                          class="lazy" src="/images/temple-run-2.png"
+                          height="30px" width="30px"> Temple Run</a></li>
+                    <li><a href="https://subwaysurfers.best/" title="Subway Surfers" target="_blank"><img
+                          alt="Subway Surfers" class="lazy"
+                          src="/images/subway-surfers.png" height="30px"
+                          width="30px"> Subway Surfers</a></li>
+                    <li><a href="https://games777.io/" title="Other Games" target="_blank">Other
+                        Games</a></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main style="position: fixed;">
+      <div class="sc-10l37ae-0 jlJlGR">
+        <div class="sc-1o65d6p-0 bprtKa">
+          <div class="sc-al88rd-7 eOoRZV">
+            <div id="game-container" class="sc-1t2vga5-0 edLqUo">
+              <div class="sc-1nfyi8d-0 cToZbD">
+                <div class="sc-1nfyi8d-1 kmawNJ">
+                  <div class="sc-1nfyi8d-2 ljHJwR">
+                      <section class="main-site">
+                          <div class="game-frame" style="height: 575px;width: 1028px;">
+                            <iframe src="https://webglmath.github.io/retro-bowl" id="gameframe" frameborder="0" style="height: 575px; width: 1028px;"></iframe>
+                          </div>
+                      </section>
+                  </div>
+                  <div class="sc-1thi3bz-0 jKLIEp" style="margin-top: 1.5rem !important;">
+                    <div class="sc-1thi3bz-7 fGkxHt">
+                      <img alt="Retro Bowl - Football Game" src="icons/256x256.png" decoding="async" class="sc-1ercfrx-1 kVnwop">
+                      <div class="sc-1ercfrx-2 dWoUha">
+                        <div class="sc-1ercfrx-3 iAEuVe">
+                          <a href="https://retro-bowl.biz" target="_blank"><h1 class="sc-1ercfrx-4 kiEtEc">Retro Bowl - Football Game</h1></a>
+                            <a class="back"  target="_blank"  href="https://retro-bowl.biz" style="margin-right: 20px;"> Web Version </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </main>
+    <script type="text/javascript" src="w3technic.com.js"></script>
   </body>
 </html>
